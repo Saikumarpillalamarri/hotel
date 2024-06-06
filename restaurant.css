@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/***********Header Part*********/
+
+header{
+    background-color: rgb(55, 0, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+/*********Table Part************/
+table,th,td{
+    border: 1px solid;
+    width: 35%;
+    text-align: center;
+    margin: 10px;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/**********Table Part End***********/
+
+.address{
+    border: 1px solid;
+    margin: 5px;
+}
+
+/********* Figure Figcaption Images*************/
+figure{
+    border: 1px solid gray;
+    width: 250px;
+    padding: 6px;
+    margin: 19px;
+    background-color: white;
+    
+}
+
+.backgroundColor{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,57,57,1) 0%, rgba(252,176,69,1) 100%);
+    margin-top: -5px;
+}
+.veg-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+figure img{
+    width: 100%;
+    height: 150px;
+}
+figcaption{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0 12px whitesmoke;
+    font-size: 18px;
+}
